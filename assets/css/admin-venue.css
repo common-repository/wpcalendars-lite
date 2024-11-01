@@ -1,0 +1,105 @@
+/* ----- Magnific Popup Custom Style ----- */
+
+.mfp-bg {
+    background: #111;
+    opacity: 0.6;
+    z-index: 109995;
+}
+
+.mfp-wrap {
+    z-index: 109996;
+}
+
+.mfp-content {
+    z-index: 109997;
+}
+
+.mfp-close {
+    box-shadow: none;
+    background: none;
+}
+
+.mfp-close:active,
+.mfp-close:hover,
+.mfp-close:focus {
+    background: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.mfp-close-btn-in .mfp-close,
+.mfp-close-btn-in .mfp-close:hover {
+    color: #333; 
+}
+
+/* ----- Maps Style ----- */
+
+.wpcalendars-map-panel {
+    position: relative;
+    background: #FFF;
+    padding: 20px 30px;
+    width: auto;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.location-static-map {
+	width: 95%;
+	margin: 20px 0;
+}
+
+.location-static-map img {
+	width: 100%;
+    display: block;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+#map {
+	width: 100%;
+	height: 400px;
+	margin: 20px 0;
+	border: 1px solid #ccc;
+}
+
+.pac-container {
+    background-color: #FFF;
+    z-index: 109999;
+    position: fixed;
+    display: inline-block;
+    float: left;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+
+.controls {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    height: 29px;
+    margin-left: 17px;
+    margin-top: 10px;
+    outline: none;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+
+.controls:focus {
+    border-color: #4d90fe;
+}
+
+.title {
+    font-weight: bold;
+}

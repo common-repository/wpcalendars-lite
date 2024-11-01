@@ -1,0 +1,63 @@
+<?php
+/**
+ * Spain states
+ */
+
+global $states;
+
+defined( 'ABSPATH' ) || exit;
+
+$states['ES'] = array(
+	'C'  => __( 'A Coru&ntilde;a', 'wpcalendars' ),
+	'VI' => __( 'Araba/&Aacute;lava', 'wpcalendars' ),
+	'AB' => __( 'Albacete', 'wpcalendars' ),
+	'A'  => __( 'Alicante', 'wpcalendars' ),
+	'AL' => __( 'Almer&iacute;a', 'wpcalendars' ),
+	'O'  => __( 'Asturias', 'wpcalendars' ),
+	'AV' => __( '&Aacute;vila', 'wpcalendars' ),
+	'BA' => __( 'Badajoz', 'wpcalendars' ),
+	'PM' => __( 'Baleares', 'wpcalendars' ),
+	'B'  => __( 'Barcelona', 'wpcalendars' ),
+	'BU' => __( 'Burgos', 'wpcalendars' ),
+	'CC' => __( 'C&aacute;ceres', 'wpcalendars' ),
+	'CA' => __( 'C&aacute;diz', 'wpcalendars' ),
+	'S'  => __( 'Cantabria', 'wpcalendars' ),
+	'CS' => __( 'Castell&oacute;n', 'wpcalendars' ),
+	'CE' => __( 'Ceuta', 'wpcalendars' ),
+	'CR' => __( 'Ciudad Real', 'wpcalendars' ),
+	'CO' => __( 'C&oacute;rdoba', 'wpcalendars' ),
+	'CU' => __( 'Cuenca', 'wpcalendars' ),
+	'GI' => __( 'Girona', 'wpcalendars' ),
+	'GR' => __( 'Granada', 'wpcalendars' ),
+	'GU' => __( 'Guadalajara', 'wpcalendars' ),
+	'SS' => __( 'Gipuzkoa', 'wpcalendars' ),
+	'H'  => __( 'Huelva', 'wpcalendars' ),
+	'HU' => __( 'Huesca', 'wpcalendars' ),
+	'J'  => __( 'Ja&eacute;n', 'wpcalendars' ),
+	'LO' => __( 'La Rioja', 'wpcalendars' ),
+	'GC' => __( 'Las Palmas', 'wpcalendars' ),
+	'LE' => __( 'Le&oacute;n', 'wpcalendars' ),
+	'L'  => __( 'Lleida', 'wpcalendars' ),
+	'LU' => __( 'Lugo', 'wpcalendars' ),
+	'M'  => __( 'Madrid', 'wpcalendars' ),
+	'MA' => __( 'M&aacute;laga', 'wpcalendars' ),
+	'ML' => __( 'Melilla', 'wpcalendars' ),
+	'MU' => __( 'Murcia', 'wpcalendars' ),
+	'NA' => __( 'Navarra', 'wpcalendars' ),
+	'OR' => __( 'Ourense', 'wpcalendars' ),
+	'P'  => __( 'Palencia', 'wpcalendars' ),
+	'PO' => __( 'Pontevedra', 'wpcalendars' ),
+	'SA' => __( 'Salamanca', 'wpcalendars' ),
+	'TF' => __( 'Santa Cruz de Tenerife', 'wpcalendars' ),
+	'SG' => __( 'Segovia', 'wpcalendars' ),
+	'SE' => __( 'Sevilla', 'wpcalendars' ),
+	'SO' => __( 'Soria', 'wpcalendars' ),
+	'T'  => __( 'Tarragona', 'wpcalendars' ),
+	'TE' => __( 'Teruel', 'wpcalendars' ),
+	'TO' => __( 'Toledo', 'wpcalendars' ),
+	'V'  => __( 'Valencia', 'wpcalendars' ),
+	'VA' => __( 'Valladolid', 'wpcalendars' ),
+	'BI' => __( 'Bizkaia', 'wpcalendars' ),
+	'ZA' => __( 'Zamora', 'wpcalendars' ),
+	'Z'  => __( 'Zaragoza', 'wpcalendars' ),
+);

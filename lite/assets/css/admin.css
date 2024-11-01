@@ -1,0 +1,18 @@
+.wpcalendars-button {
+    display: block;
+    padding: 20px 0;
+}
+
+.wpcalendars-button a {
+    background: #e27730;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 1;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}

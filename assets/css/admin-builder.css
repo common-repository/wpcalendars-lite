@@ -1,0 +1,573 @@
+/* ----- Magnific Popup Custom Style ----- */
+
+.mfp-bg {
+    background: #111;
+    opacity: 0.6;
+    z-index: 109995;
+}
+
+.mfp-wrap {
+    z-index: 109996;
+}
+
+.mfp-content {
+    z-index: 109997;
+}
+
+.mfp-close {
+    box-shadow: none;
+    background: none;
+}
+
+.mfp-close:active,
+.mfp-close:hover,
+.mfp-close:focus {
+    background: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.mfp-close-btn-in .mfp-close,
+.mfp-close-btn-in .mfp-close:hover {
+    color: #333; 
+}
+
+/* ----- jQuery Select 2 Custom Style ----- */
+
+.select2-drop-mask {
+    z-index: 1009998;
+}
+
+.select2-drop {
+    z-index: 1009999;
+}
+
+.select2-search {
+    z-index: 10010000;
+}
+
+.select2-container {
+    line-height: 30px;
+}
+
+.select2-container .select2-selection--single {
+    
+}
+
+.select2-container ul {
+    padding: 0;
+    margin: 0;
+}
+
+.select2-container .select2-choice,
+.select2-container .select2-choice:hover {
+    padding: 0;
+    box-shadow: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+.select2-container .select2-choice {
+    border-radius: 0;
+    height: auto;
+}
+
+.select2-container .select2-choice .select2-chosen {
+    padding: 3px 15px;
+    height: auto;
+}
+
+.select2-results {
+    padding: 0;
+}
+
+.select2-results .select2-result {
+    margin: 0;
+}
+
+.select2-results .select2-result-label {
+    padding: 10px 15px;
+}
+
+.select2-results .select2-highlighted {
+    background: #333;
+    color: #fff;
+    border-radius: 0;
+}
+
+.select2-no-results {
+    line-height: 30px;
+}
+
+/* ----- WPCalendars Builder Style ----- */
+
+body {
+    overflow: hidden !important;
+}
+
+.month-picker{
+    z-index: 1009999;
+}
+
+.wpcalendars-builder * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wpcalendars-builder {
+    position: fixed;
+    background: #fff;
+    z-index: 100099;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    min-width: 0;
+    margin: 0 !important;
+}
+
+.wpcalendars-builder a:focus,
+.wpcalendars-builder button:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+.wpcalendars-toolbar-wrap,
+.wpcalendars-menu-wrap,
+.wpcalendars-sidebar-wrap,
+.wpcalendars-preview-wrap,
+.wpcalendars-setup-wrap {
+    position: fixed;
+    overflow: auto;
+}
+
+/* Toolbar
+-------------------------------------------------*/
+
+.wpcalendars-toolbar-wrap {
+    top: 0;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    border-bottom: 1px solid #d3d3d3;
+    z-index: 140001;
+}
+
+.wpcalendars-toolbar {
+    position: relative;
+    padding: 28px 10px 0;
+}
+
+.wpcalendars-toolbar-left {
+    position: absolute;
+    top: 7px;
+    left: 15px;
+}
+
+.wpcalendars-toolbar-center {
+    font-size: 20px;
+    font-weight: 300;
+    display: none;
+}
+
+.wpcalendars-toolbar-center.visible {
+    display: block;
+}
+
+.wpcalendars-toolbar-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.wpcalendars-calendar-name {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.wpcalendars-toolbar-button {
+    display: none;
+}
+
+.wpcalendars-toolbar-button.visible {
+    display: inline-block;
+}
+
+#wpcalendars-get-shortcode,
+#wpcalendars-save {
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+    color: #6b6b6b;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 10px 0;
+    text-decoration: none;
+    height: 40px;
+    margin: 17px 10px 0 0;
+}
+
+#wpcalendars-save {
+    background: #82b440;
+    border: 1px solid #005500;
+    color: #fff;
+}
+
+#wpcalendars-exit {
+    background: #fff;
+    color: #909090;
+    border-left: 1px solid #d3d3d3;
+    height: 74px;
+    display: inline-block;
+    float: right;
+    font-size: 26px;
+    padding: 24px 20px 0;
+    text-decoration: none;
+}
+
+#wpcalendars-exit .dashicons {
+    font-size: 26px;
+}
+
+/* Menu
+-------------------------------------------------*/
+
+.wpcalendars-menu-wrap {
+    top: 75px;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    background: #2d2d2d;
+    color: #fff;
+}
+
+.wpcalendars-menu button {
+    color: #fff;
+    background: none;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+}
+
+.wpcalendars-menu button:hover {
+    background: #444;
+}
+
+.wpcalendars-menu button.active,
+.wpcalendars-menu button.active:hover {
+    background: #e27730;
+}
+
+.wpcalendars-menu .dashicons {
+    display: block;
+    font-size: 28px;
+    width: 28px;
+    height: 28px;
+    margin: 0 auto 5px auto;
+    text-align: center !important;
+}
+
+.wpcalendars-menu span {
+    display: block;
+}
+
+/* Popup Panel
+-------------------------------------------------*/
+
+.wpcalendars-loading-panel {
+    position: relative;
+    background: #FFF;
+    padding: 20px 30px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.wpcalendars-builder-panel {
+    position: relative;
+    background: #FFF;
+    padding: 20px 30px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.wpcalendars-builder-panel-instruction {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0;
+    color: #666;
+    line-height: 1.4;
+}
+
+.wpcalendars-builder-panel-code {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 15px 20px;
+}
+
+.wpcalendars-builder-panel-btn {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.wpcalendars-builder-panel-btn button {
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+    color: #6b6b6b;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}
+
+.wpcalendars-builder-panel-btn button.active {
+    background: #82b440;
+    border: 1px solid #005500;
+    color: #fff;
+}
+
+
+/* Sidebar
+-------------------------------------------------*/
+
+.wpcalendars-sidebar-wrap {
+    top: 75px;
+    left: 100px;
+    bottom: 0;
+    width: 350px;
+    background: #efefef;
+    display: none;
+}
+
+.wpcalendars-sidebar-wrap.active {
+    display: block;
+}
+
+.wpcalendars-sidebar {
+    padding: 15px 20px;
+}
+
+.wpcalendars-sidebar h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.wpcalendars-sidebar h3:first-of-type {
+    margin-top: 10px;
+}
+
+/* Setup
+-------------------------------------------------*/
+
+.wpcalendars-setup-wrap {
+    top: 75px;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    background: #6b6b6b;
+    padding: 25px 30px;
+    display: none;
+}
+
+.wpcalendars-setup-wrap.active {
+    display: block;
+}
+
+.wpcalendars-setup {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 0 0 20px;
+}
+
+.wpcalendars-setup-name-wrap {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 0;
+    overflow: hidden;
+}
+
+.wpcalendars-setup-name-wrap span {
+    display: inline-block;
+    font-size: 16px;
+    height: 90px;
+    float: left;
+    border-right: 1px solid #d6d6d6;
+    line-height: 90px;
+    padding: 0 30px;
+}
+
+.wpcalendars-setup-name-wrap input {
+    float: left;
+    margin: 17px 0 18px 18px;
+    height: 55px;
+    box-shadow: none;
+    border: 1px solid #d6d6d6;
+    font-size: 18px;
+    width: 420px;
+    padding: 0 20px;
+}
+
+.wpcalendars-setup-select-calendar-type-heading {
+    font-size: 24px;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.wpcalendars-setup-select-calendar-type-description {
+    font-size: 18px;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.wpcalendars-setup-calendar-types {
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+.wpcalendars-setup-calendar-type {
+    float: left;
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.wpcalendars-setup-calendar-type-inner {
+    border: 1px solid #ccc;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    height: 140px;
+}
+
+.wpcalendars-setup-calendar-type.selected .wpcalendars-setup-calendar-type-inner {
+    background: #fff4ec;
+    border-color: #e27730;
+}
+
+.wpcalendars-setup-calendar-type-name {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.wpcalendars-setup-calendar-type-name .selected {
+    background: #e27730;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px;
+    vertical-align: text-top;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-left: 10px;
+}
+
+.wpcalendars-setup-calendar-type-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.wpcalendars-setup-calendar-type:hover .wpcalendars-setup-calendar-type-overlay {
+    opacity: 1;
+}
+
+.wpcalendars-setup-calendar-type-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.wpcalendars-calendar-type-select {
+    background: #e27730;
+    border: 1px solid #b85a1b;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+.wpcalendars-calendar-type-select:hover {
+    color: #fff;
+    background: #b85a1b;
+}
+
+/* Preview
+-------------------------------------------------*/
+
+.wpcalendars-preview-wrap {
+    top: 75px;
+    left: 450px;
+    right: 0;
+    bottom: 0;
+    background: #6b6b6b;
+    padding: 25px 30px;
+    display: none;
+}
+
+.wpcalendars-preview-wrap.active {
+    display: block;
+}
+
+.wpcalendars-preview-inner {
+    position: relative;
+}
+
+.wpcalendars-preview {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 30px 40px;
+}
+
+.wpcalendars-form-field {
+    padding: 2px 0;
+    margin-bottom: 10px;
+}
+
+.wpcalendars-form-label {
+    padding: 2px 0;
+    margin-bottom: 5px;
+}
+
+.wpcalendars-form-input {
+    padding: 2px 0;
+}
+
+input.wpcalendars-form-input-text {
+    padding: 8px 15px;
+    border-color: #ccc;
+}
+
+.wpcalendars-full-width-input {
+    width: 100%;
+}

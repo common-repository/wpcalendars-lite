@@ -1,0 +1,122 @@
+.wpcalendars-welcome-container {
+    margin: 50px 150px;
+}
+
+.wpcalendars-welcome-header {
+    padding: 30px 40px;
+    text-align: center;
+    background: #374548;
+    border: 1px solid #ddd;
+}
+
+.wpcalendars-welcome-header h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.wpcalendars-welcome-header p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.wpcalendars-welcome-banner {
+    padding: 30px 100px;
+    background: #fff;
+}
+
+.wpcalendars-welcome-banner img {
+    width: 100%;
+}
+
+.wpcalendars-welcome-next {
+    text-align: center;
+    background: #fff;
+    padding: 30px 0;
+}
+
+.wpcalendars-welcome-next h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.wpcalendars-welcome-next-sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wpcalendars-welcome-next-section {
+    width: 33.3333%;
+}
+
+.wpcalendars-welcome-next-section-inner {
+    padding: 10px 15px;
+    border-right: 3px solid #eee;
+}
+
+.wpcalendars-welcome-next-section:last-child .wpcalendars-welcome-next-section-inner {
+    border: none;
+}
+
+.wpcalendars-welcome-next-section h3 {
+    font-size: 20px;
+}
+
+.wpcalendars-welcome-next-section p {
+    font-size: 16px;
+}
+
+.wpcalendars-welcome-button {
+    display: block;
+    padding: 20px 0;
+}
+
+.wpcalendars-welcome-button a {
+    background: #e27730;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 1;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.wpcalendars-welcome-features {
+    text-align: center;
+}
+
+.wpcalendars-welcome-features h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.wpcalendars-welcome-feature-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wpcalendars-welcome-feature-section {
+    width: 32%;
+    margin-bottom: 30px;
+}
+
+.wpcalendars-welcome-feature-section-inner {
+    background: #fff;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
+
+.wpcalendars-welcome-feature-section h3 {
+    font-size: 20px;
+}
+
+.wpcalendars-welcome-feature-section p {
+    font-size: 16px;
+}

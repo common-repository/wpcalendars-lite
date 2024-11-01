@@ -1,0 +1,25 @@
+h3.event-details-metabox-heading {
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#start-time,
+#end-time {
+    display: none;
+}
+
+#start-time.active,
+#end-time.active {
+    display: inline;
+}
+
+#wpcalendars-new-category,
+#wpcalendars-new-venue,
+#wpcalendars-new-organizer {
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
